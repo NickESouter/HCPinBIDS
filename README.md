@@ -4,12 +4,21 @@ This Python script was written by Nick Souter (N.Souter@sussex.ac.uk) in order t
 This script is written such that it works with the file tree generated when downloading unprocessed MRI data from the ConnectomeDB portal (https://db.humanconnectome.org).
 It should convert all structural, functional, fieldmap, and diffusion scans.
 
-## Running the script
+## Usage
 
-Upon running the script, you will have the option to 'copy' files into new BIDS files, or to symbolic 'link' them with new names but without creating new files.
-Note that the resuling 'link' directory will not be recognised as BIDS valid through the BIDS Validator (https://bids-standard.github.io/bids-validator), but the 'copy' version will.
+This script will expect the following arguments:
 
-As it stands, the output directory is generated within the current working directory holding this script. The input_dir variable should be updated as needed within the script.
+```
+HCPinBIDS.py -in <input directory> -out <output directory> -method <'copy'/'link'>
+```
+  
+ -in must be a valid directory, and should contain unprocessed HCP data in the format provided by ConnectomeDB (see above). Script will exit if an invalid path is provided.
+ -out should point to where you want your output files to be placed.
+ -method can be either 'copy' or 'link'. 'copy' will create new versions of original files in the output directory, while 'link' will create symbolic links to them with new names but without generating new files 
+ (for the majority of files. Sidecar JSON files and structural magnitude fieldnames will need to be generated as new files). In either case, files in the input directory will not be impacted.
+ Note that the resuling 'link' directory will not be recognised as BIDS valid through the BIDS Validator (https://bids-standard.github.io/bids-validator), but a 'copy' version will.
+ 
+ These arguments can be presented in any order.
 
 ## Demographic information
 
