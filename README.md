@@ -33,8 +33,8 @@ As such, users must abide by these terms when using this demographic information
 
 ## Data sources and background
 
-Files are structured to be compatible with BIDS using the format described in v1.8.0 of the BIDS specification (https://zenodo.org/record/7263306#.ZGdUa3bMKUk). All available metadata for each file/scan
-type was taken manually from documents provided by HCP, including Appendix 1 of the WU-Minn HCP 1200 Subjects Release: Reference Manual, and the HCP 7T Imaging Protocl Overview:
+Files are structured to be compatible with BIDS using the format described in v1.8.0 of the BIDS specification (https://zenodo.org/record/7263306). All available BIDS metadata for each file/scan
+type was taken manually from documents provided by HCP, including Appendix 1 of the WU-Minn HCP 1200 Subjects Release: Reference Manual, and the HCP 7T Imaging Protocol Overview:
 
 www.humanconnectome.org/storage/app/media/documentation/s1200/HCP_S1200_Release_Reference_Manual.pdf
 www.humanconnectome.org/storage/app/media/documentation/s1200/HCP_S1200_Release_Appendix_I.pdf
