@@ -1,6 +1,6 @@
 # HCPinBIDS
 
-This script was written by Nick Souter (N.Souter@sussex.ac.uk) in order to convert raw unprocessed data from the human connectome project (HCP) young adult dataset into brain imaging data structure (BIDS) format. 
+This Python script was written by Nick Souter (N.Souter@sussex.ac.uk) in order to convert raw unprocessed data from the human connectome project (HCP) young adult dataset into brain imaging data structure (BIDS) format. 
 This script is written such that it works with the file tree generated when downloading unprocessed MRI data from the ConnectomeDB portal (https://db.humanconnectome.org).
 It should convert all structural, functional, fieldmap, and diffusion scans.
 
