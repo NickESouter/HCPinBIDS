@@ -40,5 +40,7 @@ If so, let me know! I'll do my best to adjust the code.
 It should be noted that some warnings on the BIDS validator do not reflect unsuccesful conversion, but are caused by quirks of the data provided by HCP. These include and may not be limited to:
 
 [Code 25] EVENTS_TSV_MISSING
+
 [Code 85] SUSPICIOUSLY_LONG_EVENT_DESIGN
+
 [Code 97] MISSING_SESSION
