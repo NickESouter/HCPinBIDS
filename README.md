@@ -14,7 +14,7 @@ As it stands, the output directory is generated within the current working direc
 ## Demographic information
 
 This script also expects a CSV file containing the participant ID, age, and gender of all participants being converted. I have included a CSV file with this information that should allow the
-script to automatically pull demographics for subjects you are converting. If this file isn't present, it'll print a warning rather than crashing.
+script to automatically pull demographics for subjects you are converting. If this file isn't present in the same directory as the script, it'll print a warning rather than crashing.
 
 This file contains data made available by HCP under their Open Access Data Use Terms (www.humanconnectome.org/study/hcp-young-adult/document/wu-minn-hcp-consortium-open-access-data-use-terms).
 As such, users must abide by these terms when using this demographic information.
