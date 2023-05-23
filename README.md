@@ -11,7 +11,7 @@ This script is written such that it works with the file tree generated when down
 - 125525_7T_rfMRI_REST1_unproc
 - 131722_7T_tfMRI_RETEXP_unproc
 
-The exact folders will vary based on the participants and scans you've downloaded. It should convert all structural, functional, fieldmap, and diffusion scans, and generate JSON sidecars with metadata for each.
+The exact folders will vary based on the participants and scans you've downloaded. It should convert all structural, functional, fieldmap, and diffusion scans, and generate JSON sidecars with metadata for each. The script will print the filename of each file being converted, while running.
 
 ## Usage
 
