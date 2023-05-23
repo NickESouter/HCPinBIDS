@@ -23,7 +23,7 @@ HCPinBIDS.py -in <input directory> -out <output directory> -method <'copy'/'link
   
  - '-in' must be a valid directory, and should contain unprocessed HCP data in the format provided by ConnectomeDB (see above). Script will exit if an invalid path is provided.
  
- - '-out' should point to where you want your output files to be placed.
+ - '-out' should point to where you want your output files to be placed. If this directory doesn't exist, it'll be created.
  
  - '-method' can be either 'copy' or 'link'. 'copy' will create new versions of original files in the output directory, while 'link' will create symbolic links to them with new names but without generating new files 
  (for the majority of files. Sidecar JSON files and structural magnitude fieldmaps will need to be generated as new files). In either case, files in the input directory will not be impacted.
